@@ -7,8 +7,8 @@ The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently 
 </p>
 
 ## 📸Network Topology
-<img width="500" height="381" alt="Network Topology" src="https://github.com/user-attachments/assets/3960ca91-470b-4c8c-bf31-efc567d64ebe" />
-<img width="500" height="813" alt="vbox-setup" src="https://github.com/user-attachments/assets/abcaafb8-01a4-4c76-97a6-b8bb92b6e2e1" />
+<img width="500" height="700" alt="Network Topology" src="https://github.com/user-attachments/assets/3960ca91-470b-4c8c-bf31-efc567d64ebe" />
+<img width="500" height="700" alt="vbox-setup" src="https://github.com/user-attachments/assets/abcaafb8-01a4-4c76-97a6-b8bb92b6e2e1" />
 
  ## 🎯What This Project Covers
  <ul>

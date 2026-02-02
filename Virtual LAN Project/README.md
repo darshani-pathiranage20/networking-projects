@@ -6,11 +6,11 @@ The router VM used two network adapters: one connected to NAT for internet acces
 The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently for the required devices. Connectivity and behavior were verified using ping tests, ARP table inspection, and packet capture with tcpdump. All configurations were made persistent across reboots.
 </p>
 
-## Network Topology
+## 📸Network Topology
 <img width="500" height="381" alt="Network Topology" src="https://github.com/user-attachments/assets/3960ca91-470b-4c8c-bf31-efc567d64ebe" />
 <img width="500" height="813" alt="vbox-setup" src="https://github.com/user-attachments/assets/abcaafb8-01a4-4c76-97a6-b8bb92b6e2e1" />
 
- ## What This Project Covers
+ ## 🎯What This Project Covers
  <ul>
    <li>IP Addressing & Subnetting - /29 network sized for 3 devices </li>
    <li>DHCP - Automatic IP assignment via ISC DHCP server</li>
@@ -19,8 +19,11 @@ The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently 
    <li>ARP - MAC address resolution on local network</li>
  </ul>
 
- ## Network Specifications
+ ## 📋Network Specifications
  IP Addressing & Subnetting — Designed a /29 network (6 usable hosts) matched to the lab size
+
+### 2 ^ 3 -->  8 -2 = 6 
+ 
  <table border="1" cellpadding="8" cellspacing="0">
   <tr>
     <th>Item</th>
@@ -98,7 +101,7 @@ The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently 
   </tr>
   <tr>
     <td>Adapter 1</td>
-    <td>Internal Network → "LAN"</td>
+    <td>Internal Network →  "LAN"</td>
     <td>enp0s3</td>
     <td>192.168.1.1/29 (Static)</td>
   </tr>
@@ -110,7 +113,25 @@ The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently 
   </tr>
 </table>
 
-## Tools & Technologies
+## 🛠️Tools & Technologies
+**💻 Virtualization:**
+- VirtualBox — VM hosting and virtual networking
+
+**🐧 Operating System:**
+- Ubuntu Server 22.04 LTS — All three VMs
+
+**🌐 Networking Tools:**
+- ISC DHCP Server (`isc-dhcp-server`) — Automatic IP assignment
+- iptables — NAT configuration and firewall rules
+- iptables-persistent — Save firewall rules across reboots
+- systemd — Service management for persistent configuration
+- Netplan — Network configuration on client VMs
+
+**🧪 Testing & Verification:**
+- ping — Connectivity testing
+- tcpdump — Packet capture and analysis
+- ip / route / arp — Interface and routing management
+- nslookup — DNS verification
 
 ## What this project demonstrates
 <ul> 

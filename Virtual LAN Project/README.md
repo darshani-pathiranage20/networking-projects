@@ -7,7 +7,7 @@ The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently 
 </p>
 
 ## 📸Network Topology
-<img width="500" height="950" alt="Network Topology" src="https://github.com/user-attachments/assets/3960ca91-470b-4c8c-bf31-efc567d64ebe" />
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/06c4c0b6-c2a1-4ee0-8241-4617f51d7b0d" />
 
  ## 🎯What This Project Covers
  <ul>

@@ -15,7 +15,6 @@ The network was designed using a /29 subnet (192.168.1.0/29), sized efficiently 
    <li>DHCP - Automatic IP assignment via ISC DHCP server</li>
    <li>NAT - iptables masquerading for internet sharing</li>
    <li>Routing - Linux router forwards packets between LAN and WAN</li>
-   <li>ARP - MAC address resolution on local network</li>
  </ul>
 
  ## 📋Network Specifications
